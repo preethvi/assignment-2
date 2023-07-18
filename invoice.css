@@ -1,0 +1,119 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+    align-items: center;
+ }
+ 
+ 
+ #stunning-logo{
+    width: 100px;
+ }
+ 
+ body{
+    margin: 0px;
+ }
+ 
+ 
+ #nav-section a{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 15px;
+    color: gray;
+ }
+ 
+ #nav-section a:hover{
+    border-bottom: 3px solid blue;
+    cursor: pointer;
+    color: black;
+ }
+ 
+ #header-button{
+    border-width: 0px;
+    background-color: pink;
+    color: blue;
+    padding: 15px 25px;
+    border-radius: 25px;
+ }
+ 
+ #main-section{
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+ }
+ 
+ #left-section{
+    width: 40%;
+ }
+ 
+ 
+ #right-section{
+    width: 50%;
+ }
+ 
+ #stunning-workplace-heading{
+    font-size: 50px;
+ }
+ 
+ body{
+    background-color: #F5F5F5;
+ }
+ 
+ #new-account-btn{
+    border-width: 0px;
+    background-color:  #5243C0;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+ }
+ 
+ #new-account-btn-arrows-img{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+ }
+ 
+ .specification-box-bar{
+    border-width: 0px;
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 10px;
+ }
+ 
+ .specification-box{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    background-image : url("./tick-gray.png") ;
+    background-repeat: no-repeat;
+    background-position: 15px 20px ;
+    background-color: #F5F5F5;
+ }
+ 
+ .specification-box:hover{
+    background-color: white;
+    cursor: pointer;
+    background-image : url("./tick-blue.png") ;
+    background-repeat: no-repeat;
+    background-position: 15px 20px ;
+    
+ }
+ 
+ .left-specification-section{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .right-specification-section{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
